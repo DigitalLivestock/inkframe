@@ -1,0 +1,15 @@
+[Unit]
+Description=Inkframe
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/inkframe/src
+ExecStart=/bin/bash -c 'source /home/pi/.virtualenvs/pimoroni/bin/activate && python main.py'
+Restart=always
+
+StandardOutput=append:/tmp/inkframe.log
+StandardError=append:/tmp/inkframe.log
+
+[Install]
+WantedBy=multi-user.target
