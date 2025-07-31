@@ -3,6 +3,7 @@
 ## Introduction
 
 ## Hardware Setup
+This section presents the involved hardware and assembly instructions.
 
 ### Recomended/Required Hardware
 - Photo frame: LOMVIKEN 10x15 cm, IKEA (https://www.ikea.com/se/sv/p/lomviken-ram-svart-80518206/)
@@ -34,6 +35,8 @@
 13. Systemd setup using the following instructions: https://www.donskytech.com/raspberry-pi-how-to-start-python-script-on-boot/. Instead of led-blink.service, use inkframe.service prepared in the inkframe-directory.
 
 ## Functions
+This section goes over the available functions of the system.
+
 ### Behaviour
 - Inkframe program reloads automatically after boot.
 - Shuffles images in folder at every restart.
