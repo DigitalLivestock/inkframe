@@ -31,7 +31,7 @@ def main() -> None:
             hud_text = f"Temp: {sensor_data.temperature} °C\nHum: {sensor_data.humidity} %"
             inky_display_handler.set_hud_text(text=hud_text)
         except RuntimeError as e:
-            print(f"[Error] RuntimeError: sensor - {e}")
+            print(f"[ERROR] RuntimeError: sensor - {e}")
 
         # Update image and HUD if active:
         inky_button_handler.disable_buttons()
@@ -49,7 +49,7 @@ def main() -> None:
 
         if inky_button_handler.is_event():
             button_event = inky_button_handler.get_event()
-            inky_button_handler.clear_event_queue() # On event at a time
+            inky_button_handler.clear_event_queue() # One event at a time
             
             print("[DEBUG] Button event: " +  button_event)
             

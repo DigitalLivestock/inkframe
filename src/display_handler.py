@@ -33,7 +33,7 @@ class DisplayHandler:
             direction=None, 
             features=None,
             language=None, 
-            stroke_width=1, 
+            stroke_width=0, 
             stroke_fill=None, 
             embedded_color=False,
             font_size=14
@@ -51,6 +51,6 @@ class DisplayHandler:
                 self.display.set_image(self.current_image)
 
         except FileNotFoundError:
-            print(f"Error: The image file at {image_path} was not found.")
+            print(f"[ERROR] The image file at {image_path} was not found.")
         except Exception as e:
-            print(f"An error occurred: {e}")
+            print(f"[ERROR] An error occurred: {e}")

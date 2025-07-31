@@ -26,4 +26,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("[Exiting]")
     except RuntimeError as e:
-        print("[ERR] RunTimeError: e")
+        print(f"[ERROR] RunTimeError: {e}")
