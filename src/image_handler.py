@@ -15,8 +15,8 @@ class ImageHandler:
         # Setup images and order:
         try:
             self.image_names = os.listdir(self.folder_path)
-        except FileNotFoundError: 
-            print("[!] Directory not found")
+        except FileNotFoundError as e: 
+            print(f"[ERROR] Directory not found - {e}")
             sys.exit(0)
         
         self.max_image_index = len(self.image_names) - 1
@@ -31,7 +31,7 @@ class ImageHandler:
             current_image_name: str = self.image_names[self.current_image_index]
             
         except IndexError:
-            print("IndexError: setting index to 0")
+            print("[ERROR] IndexError: setting index to 0")
             self.current_image_index = 0
 
         image_path: str = self.folder_path + current_image_name

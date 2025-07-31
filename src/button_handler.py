@@ -58,7 +58,7 @@ class InkyButtonHandler:
         gpio_number = self.gpio[index]
         label = self.labels[index]
         self.event_queue.put(label)
-        print(f"Button press detected on GPIO #{gpio_number} label: {label}")
+        print(f"[DEBUG] Button press detected on GPIO #{gpio_number} label: {label}")
 
     def get_event(self) -> str:
         return self.event_queue.get()
