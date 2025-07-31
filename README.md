@@ -2,7 +2,7 @@
 
 ## Introduction
 
-## Hardware & Setup
+## Hardware Setup
 
 ### Recomended/Required Hardware
 - Photo frame: LOMVIKEN 10x15 cm, IKEA (https://www.ikea.com/se/sv/p/lomviken-ram-svart-80518206/)
