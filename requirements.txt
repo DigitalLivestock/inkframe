@@ -1,0 +1,8 @@
+adafruit_blinka==8.62.0
+adafruit_circuitpython_dht==4.0.9
+gpiod==2.3.0
+gpiodevice==0.0.5
+inky==2.1.0
+Pillow==11.3.0
+schedule==1.2.2
+
