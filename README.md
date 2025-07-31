@@ -20,6 +20,7 @@ This section presents the involved hardware and assembly instructions.
 5. Power the system with the AC/DC adapter.
 
 ## System Configuration
+This section presents the instructions for how to install required software and how to configure the linux environment.
 1. Connect to the RPI via SSH. Instructions are given here again: https://learn.pimoroni.com/article/getting-started-with-inky-impression
 2. To the usual sudo apt update and sudo apt upgrade
 3. Install git: sudo apt install git
