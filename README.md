@@ -1,4 +1,4 @@
-# InkFrame: a Wireless Photo Frame enabled by a Pimoroni's Inky Impression and Raspberry Pi Zero 2W written in Python
+# InkFrame: a Wireless Photo Frame enabled by Pimoroni's Inky Impression and Raspberry Pi Zero 2W written in Python
 
 ## Introduction
 
