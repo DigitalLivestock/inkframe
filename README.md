@@ -34,5 +34,17 @@
 13. Systemd setup using the following instructions: https://www.donskytech.com/raspberry-pi-how-to-start-python-script-on-boot/. Instead of led-blink.service, use inkframe.service prepared in the inkframe-directory.
 
 ## Functions
+### Behaviour
+- Inkframe program reloads automatically after boot.
+- Shuffles images in folder at every restart.
+- New image every 30 min. Can be re-configured in src/config.ini
+- Shows tempererature and humidity.
+- Takes input from Inky Impression display buttons.
+
+### Buttons
+- Button A: Move to next image.
+- Button B: Re-shuffle images.
+- Button C: Reserved.
+- Button D: Toggle temperature and humidity HUD visibility.
 
 ## References
