@@ -1,4 +1,4 @@
-# InkFrame: a Smart Photoframe enabled by a Pimoroni's Inky Impression and Raspberry Pi Zero 2 W written in Python
+# InkFrame: a Smart Photo Frame enabled by a Pimoroni's Inky Impression and Raspberry Pi Zero 2 W written in Python
 
 ## Introduction
 
