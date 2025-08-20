@@ -1,7 +1,5 @@
 # InkFrame: a Wireless Photo Frame enabled by Pimoroni's Inky Impression and Raspberry Pi Zero 2W written in Python
 
-## Introduction
-
 ## Hardware Setup
 This section presents the involved hardware and assembly instructions.
 
